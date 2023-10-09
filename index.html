@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openvolt Challenge</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Openvolt Challenge</h1>
+    <div id="inputParams">
+        <label for="meterId">Meter ID:</label>
+        <input type="text" id="meterId" value="6514167223e3d1424bf82742"><br>
+        
+        <label for="timePeriod">Time Period:</label>
+        <input type="month" id="timePeriod" value="2023-01" min="2023-01" max="2050-12"><br>
+    </div>
+    
+    <button id="fetchButton">Fetch Data</button>
+
+    <div id="loading">
+        Loading... 
+    </div>
+
+    <div id="output">
+        <textarea id="jsonOutput"></textarea>
+    </div>      
+    <script src="script.js"></script>
+</body>
+</html>
