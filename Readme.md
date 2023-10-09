@@ -29,23 +29,6 @@ This section provides details on the calculations used to determine the followin
 
    The monthly energy consumed by the building is calculated by summing the energy consumption values obtained from half-hourly readings. Each half-hour reading represents the electricity consumed during a specific period.
 
-2. **Monthly CO2 Emissions (kgs):**
-
-   The monthly CO2 emissions associated with electricity generation are calculated based on the carbon intensity of electricity consumed. Carbon intensity represents the amount of CO2 emissions per unit of electricity generated.
-
-3. **Monthly % of Fuel Mix (wind/solar/nuclear/coal/etc):**
-
-   The monthly percentage of
-
-
-## Calculations
-
-This section provides details on the calculations used to determine the following metrics:
-
-1. **Monthly Energy Consumed (kWh):**
-
-   The monthly energy consumed by the building is calculated by summing the energy consumption values obtained from half-hourly readings. Each half-hour reading represents the electricity consumed during a specific period.
-
    - For each half-hour reading, the energy consumption is recorded in kilowatt-hours (kWh).
    - The monthly energy consumption is obtained by adding up all the half-hour consumption values for the respective month.
 
